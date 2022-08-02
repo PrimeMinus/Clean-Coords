@@ -1,0 +1,36 @@
+{
+	"format_version": 2,
+	"header": {
+	  "description": "Simple position display\n§oCreated by PrimeMinus§r",
+	  "name": "Clean Coords",
+	  "uuid": "0a2cc1b5-7037-470f-95f5-2527002accd4",
+	  "version": [1, 0, 0],
+	  "min_engine_version": [1, 13, 0]
+	},
+	"modules": [
+	  {
+		"description": "Simple position display\n§oCreated by PrimeMinus§r",
+		"type": "resources",
+		"uuid": "de6ca82f-7696-4d29-a59a-04efbb2cfb33",
+		"version": [1, 0, 0]
+	  }
+	],
+	"settings": [
+	  {
+		"type": "label",
+		"text": "You can select between having a comma (,) between the number or not.\nWith Comma Example: §b558, 64, 456§r\nWithout Comma Example: §b558 64 456§r"
+	  }
+	],
+	"subpacks": [
+	  {
+		"folder_name": "comma",
+		"name": "With Comma",
+		"memory_tier": 1
+	  },
+	  {
+		"folder_name": "no_comma",
+		"name": "Without Comma",
+		"memory_tier": 1
+	  }
+	]
+  }
